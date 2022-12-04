@@ -1,0 +1,79 @@
+body {
+    background-color: #23242E;
+    font-family: 'Ubuntu';
+    padding-top: 30px;
+}
+
+header {
+    /* border-radius: 20px 20px 0 0 !important; */
+    margin: auto !important;
+    max-width: 900px;
+    height: 200px;
+}
+
+header div h1 {
+    color: #FFF;
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+}
+
+main {
+    background-color: #FFAF10;
+    border-radius: 0 0 20px 20px;
+    margin: 0 auto;
+    padding: 25px;
+    max-width: 900px;
+    width: 100%;
+}
+
+main .row div {
+    padding: 10px;
+}
+
+main .row div span {
+    background-color: #E3E3E3;
+    height: 38px;
+    text-align: center;
+}
+
+.fa-youtube {
+    color: #C1181E;
+}
+
+.fa-moon {
+    color: #0E0066;
+}
+
+.fa-sun {
+    color: #FF5C00;
+}
+
+.fa-moon,
+.fa-sun {
+    float: right;
+}
+
+main .row:nth-child(4) div:nth-child(2) {
+    margin: auto;
+    text-align: center;
+}
+
+button {
+    font-weight: bold;
+    height: 53px;
+    max-width: 300px;
+    width: 100%;
+}
+
+#image {
+    background: url('../image/churras.opt.jpg');
+    border-radius: 20px 20px 0 0 !important;
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 40%;
+}
